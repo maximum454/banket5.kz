@@ -1,0 +1,12 @@
+.slider {
+	.carousel-caption {
+		color: #fff;
+		font-size: 64px;
+		font-family: $fonts2;
+		left: 0;
+		right: 0;
+		bottom: auto;
+		top: 50%;
+		transform: translate(0,-50%);
+	}
+}

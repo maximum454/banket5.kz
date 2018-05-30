@@ -1,0 +1,19 @@
+.nav{
+	width: 100%;
+	padding: 14px 0;
+	background-color: #CDA267;
+	text-align: center;
+	position: relative;
+	&:after {
+		display: block;
+		content: "";
+		clear: both;
+	}
+	a{
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}

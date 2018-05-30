@@ -1,50 +1,41 @@
-.header{
-	background-image: url("../img/header__bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 280px 20px 110px;
-	margin-top: -170px;
-	margin-bottom: 75px;
+.header {
 	position: relative;
-	&:after{
-		content: '';
-		position: absolute;
-		right: 0;
-		bottom: -200px;
-		background-image: url("../img/header-after__bg.png");
-		background-repeat: no-repeat;
-		background-size: 100%;
-		width: 723px;
-		height: 846px;
-		z-index: 1;
+	padding: 14px;
+	&::after {
+		display: block;
+		content: "";
+		clear: both;
 	}
-	&__inner{
+	&__location{
+		margin-top: 22px;
+		vertical-align: middle;
+		color: #2E2E2E;
+		font-size: 14px;
+		img{
+			margin-right: 5px;
+		}
+	}
+	&__phone{
+		display: block;
+		margin-top: 22px;
+		vertical-align: middle;
+		color: #2E2E2E;
+		font-size: 14px;
+		text-decoration: none;
+		img{
+			margin-right: 5px;
+		}
+	}
+	&__btn {
+		background-color: #CE9256;
 		width: 100%;
-		max-width: 1400px;
-		margin: 0 auto;
-	}
-	h1{
+		height: 45px;
+		margin-top: 10px;
 		color: #fff;
-		font-size: 50px;
-		line-height: 1;
+		font-size: 18px;
 		font-weight: bold;
-		text-transform: uppercase;
+		outline:none;
+		border: none;
+		border-radius: 20px;
 	}
-	h2{
-		color: #fff;
-		font-size: 39px;
-		line-height: 1;
-		font-weight: 300;
-		text-transform: uppercase;
-	}
-	@include r(1024){
-		padding: 200px 20px 50px;
-		h1{
-			font-size: 28px;
-		}
-		h2{
-			font-size: 30px;
-		}
-	}
-
 }

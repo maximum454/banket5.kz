@@ -5,14 +5,15 @@
 @import "base/class";
 
 /*blocks vendors*/
+@import "vendors/bootstrap";
+@import "vendors/bootstrap-theme";
 @import "vendors/slick";
 @import "vendors/arcticmodal-0.3";
 
 /*blocks damutek*/
 @import "bloks/header";
+@import "bloks/nav";
+@import "bloks/slider";
+@import "bloks/about";
 @import "bloks/modal";
 @import "bloks/footer";
-
-
-
-

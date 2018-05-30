@@ -1,4 +1,5 @@
 //= partials/jquery.min.js
+//= partials/bootstrap.js
 //= partials/slick.min.js
 //= partials/jquery.arcticmodal-0.3.min.js
 
@@ -13,7 +14,7 @@ $(function () {
         }
     });
 
-    $('input[type=checkbox],input[type=file], select').styler();
+    $('.carousel').carousel()
 
     $('.popap_box').click(function () {
         $('#modalbox_' + $(this).data('body')).arcticmodal({
