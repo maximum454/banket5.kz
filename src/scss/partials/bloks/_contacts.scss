@@ -79,4 +79,9 @@
 			}
 		}
 	}
+	@include r(992){
+		&__item{
+			font-size: 14px;
+		}
+	}
 }

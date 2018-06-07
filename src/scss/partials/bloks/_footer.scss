@@ -27,4 +27,12 @@
 			margin-right: 0;
 		}
 	}
+	@include r(992){
+		h4{
+			font-size: 14px;
+		}
+		&__social{
+			margin-right: 6px;
+		}
+	}
 }

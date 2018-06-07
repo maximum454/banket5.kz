@@ -31,13 +31,23 @@ $(function () {
         $('body,html').animate({scrollTop: top - 50}, 1500);
     });
 
-    $('.js-slider').slick({
+    $('.js-about').slick({
         autoplay: false,
         dots: false,
         arrows: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 3,
+        adaptiveHeight: true,
+        cssEase: 'linear'
+    });
+    $('.js-partners').slick({
+        autoplay: false,
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
         adaptiveHeight: true,
         cssEase: 'linear'
     });
