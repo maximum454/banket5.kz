@@ -43,4 +43,7 @@
 		right: -60px;
 		transform: rotate(0) translate(0,-50%);
 	}
+	@include r(768){
+		padding: 45px 0;
+	}
 }

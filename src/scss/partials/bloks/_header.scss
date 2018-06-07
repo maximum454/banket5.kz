@@ -57,4 +57,19 @@
 			font-size: 12px;
 		}
 	}
+	@include r(768){
+		&__location{
+			font-size: 18px;
+			text-align: center;
+		}
+		&__phone{
+			font-size: 18px;
+			text-align: center;
+		}
+		&__btn {
+			display: block;
+			font-size: 18px;
+			margin: 20px auto;
+		}
+	}
 }

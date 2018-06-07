@@ -7,7 +7,7 @@
 		content: "";
 		clear: both;
 	}
-	&__header{
+	h2{
 		color: #2E2E2E;
 		font-size: 36px;
 		font-weight: bold;
@@ -82,6 +82,16 @@
 	@include r(992){
 		&__item{
 			font-size: 14px;
+		}
+	}
+	@include r(768){
+		text-align: left;
+		&__header{
+			font-size: 36px;
+		}
+		&__item{
+			font-size: 18px;
+			margin-bottom: 30px;
 		}
 	}
 }

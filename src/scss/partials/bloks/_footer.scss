@@ -35,4 +35,13 @@
 			margin-right: 6px;
 		}
 	}
+	@include r(768){
+		h4{
+			margin-top: 20px;
+			font-size: 18px;
+		}
+		&__social{
+			margin-right: 10px;
+		}
+	}
 }

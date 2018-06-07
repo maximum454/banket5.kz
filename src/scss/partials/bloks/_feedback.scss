@@ -79,4 +79,19 @@
 			max-width: 255px;
 		}
 	}
+	@include r(768){
+		h2{
+			font-size: 18px;
+		}
+		input{
+			width: 100%;
+			max-width: 100%;
+			margin-bottom: 20px;
+		}
+		input[type=submit],
+		button{
+			width: 100%;
+			max-width: 100%;
+		}
+	}
 }

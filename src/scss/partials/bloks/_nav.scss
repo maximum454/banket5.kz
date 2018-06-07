@@ -21,4 +21,9 @@
 			font-size: 14px;
 		}
 	}
+	@include r(768){
+		a{
+			font-size: 22px;
+		}
+	}
 }
