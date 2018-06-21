@@ -1,29 +1,26 @@
-.nav{
-	width: 100%;
-	padding: 14px 0;
+.navbar-default{
+	box-shadow: none;
+	background-image: none;
 	background-color: #CDA267;
-	text-align: center;
-	position: relative;
-	&:after {
-		display: block;
-		content: "";
-		clear: both;
-	}
-	a{
-		color: #fff;
-		font-size: 18px;
-		font-weight: bold;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
-	@include r(992){
+	margin-bottom: 0;
+	border: none;
+	border-radius: 0;
+	.nav{
 		a{
-			font-size: 14px;
+			color: #fff;
+			font-size: 18px;
+			font-weight: bold;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 13px 15px;
+			&:hover{
+				background-color: #fff;
+				color: #CDA267;
+			}
 		}
 	}
-	@include r(768){
-		a{
-			font-size: 22px;
-		}
-	}
+}
+.navbar-collapse{
+	background-color: none;
+	height: 100%;
 }
