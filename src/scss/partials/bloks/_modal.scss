@@ -38,11 +38,11 @@
 		outline:none;
 	}
 	.modal-content{
-		background: #ce9256;
-		background: -moz-linear-gradient(45deg, #ce9256 0%, #cda267 100%);
-		background: -webkit-linear-gradient(45deg, #ce9256 0%,#cda267 100%);
-		background: linear-gradient(45deg, #ce9256 0%,#cda267 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce9256', endColorstr='#cda267',GradientType=1 );
+		background: #8cddcd;
+		background: -moz-linear-gradient(45deg, #8cddcd 0%, #8cddcd 100%);
+		background: -webkit-linear-gradient(45deg, #8cddcd 0%,#8cddcd 100%);
+		background: linear-gradient(45deg, #8cddcd 0%,#8cddcd 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cddcd', endColorstr='#8cddcd',GradientType=1 );
 		position: relative;
 		&:before{
 			content: '';
