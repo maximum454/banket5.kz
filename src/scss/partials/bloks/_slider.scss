@@ -27,12 +27,13 @@
 	}
 	.carousel-caption {
 		color: #fff;
-		font-size: 64px;
+		font-size: 72px;
 		font-family: $fonts2;
 		left: 0;
 		right: 0;
 		bottom: auto;
 		top: 50%;
+		text-shadow: 0 0 10px #000;
 		transform: translate(0,-50%);
 	}
 	@include r(768){
