@@ -2,6 +2,7 @@
 //= partials/bootstrap.js
 //= partials/slick.min.js
 //= partials/jquery.arcticmodal-0.3.min.js
+//= partials/jquery.fancybox.js
 
 $(function () {
     $(window).scroll(function () {
